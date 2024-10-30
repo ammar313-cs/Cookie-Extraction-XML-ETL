@@ -1,7 +1,10 @@
 from typing import List, Dict, Union
 from http.cookies import SimpleCookie
 from sqlalchemy.orm import Session
-import models  
+import ScanRequestCookie
+import ScanResponseCookie
+import ScanRequestCookieAttribute
+import ScanResponseCookieAttribute
 
 def get_cookies_custom(
     headers: dict[str, str | list[str]], header_type: str

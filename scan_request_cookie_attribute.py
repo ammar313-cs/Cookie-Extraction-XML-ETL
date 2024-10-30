@@ -4,7 +4,7 @@ from sqlalchemy import orm
 from .base import OrmBase
 
 
-class ScanRequestCookieAttribute(ModelBase):
+class ScanRequestCookieAttribute(orm.DeclarativeBase):
     """
     Stores attribute names for request cookies.
     """

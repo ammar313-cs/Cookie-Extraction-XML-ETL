@@ -1,8 +1,6 @@
 import sqlalchemy as sa
 from sqlalchemy import orm
 
-from .base import OrmBase
-from .scan_item import ScanItem
 from .scan_response_cookie_attribute import ScanResponseCookieAttribute
 
 

@@ -1,7 +1,6 @@
 import sqlalchemy as sa
 from sqlalchemy import orm
 
-from .base import OrmBase
 from .scan_item import ScanItem
 from .scan_request_cookie_attribute import ScanRequestCookieAttribute
 

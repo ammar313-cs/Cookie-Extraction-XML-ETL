@@ -6,7 +6,7 @@ from .scan_item import ScanItem
 from .scan_response_cookie_attribute import ScanResponseCookieAttribute
 
 
-class ScanResponseCookie(OrmBase):
+class ScanResponseCookie(orm.DeclarativeBase):
     """
     Stores cookie values with references to attribute IDs and scan items.
     """

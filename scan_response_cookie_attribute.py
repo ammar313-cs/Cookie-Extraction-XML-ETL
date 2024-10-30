@@ -1,10 +1,8 @@
 import sqlalchemy as sa
 from sqlalchemy import orm
 
-from .base import OrmBase
 
-
-class ScanResponseCookieAttribute(OrmBase):
+class ScanResponseCookieAttribute(orm.DeclarativeBase):
     """
     Stores attribute names for set-cookies(response).
     """
